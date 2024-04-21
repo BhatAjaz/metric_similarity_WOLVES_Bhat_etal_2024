@@ -1,0 +1,30 @@
+---
+nObjects: 12
+trainTrial: 
+  count: 30
+  duration: 4000
+  visuals_On: 0
+  visuals_Off: 4000
+  word1_On: 500
+  word1_Off: 1500
+  word2_On: 2500
+  word2_Off: 3500
+testTrial: 
+  count: 12
+  duration: 1000
+  visuals_On: 0
+  visuals_Off: 1000
+  ### one-time word (1 sec trial)  
+  word_On: 8
+  word_Off: 1000
+empirical: 
+  NEAR: 
+    target-mean: 3.88
+    target-error: 0.74
+    dist-mean: 2.74
+    dist-error: 0.91
+  FAR: 
+    target-mean: 3.28
+    target-error: 0.84
+    dist-mean: 3.38
+    dist-error: 0.65
